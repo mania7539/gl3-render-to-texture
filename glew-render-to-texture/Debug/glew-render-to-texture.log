@@ -1,0 +1,6 @@
+﻿LINK : warning LNK4098: defaultlib 'LIBCMT' conflicts with use of other libs; use /NODEFAULTLIB:library
+glew32s.lib(glew.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'glew32s.lib(glew.obj)' or at 'D:\git\open-gl\glew-render-to-texture\Debug\vc120.pdb'; linking object as if no debug info
+  glew-render-to-texture.vcxproj -> D:\git\open-gl\glew-render-to-texture\Debug\glew-render-to-texture.exe
+  glew-render-to-texture.vcxproj -> D:\git\open-gl\glew-render-to-texture\Debug\glew-render-to-texture.pdb (Partial PDB)
+  D:\git\open-gl\glew-render-to-texture\Dependencies\freeglut\include\freeglut.dll
+  已複製 1 個檔案
