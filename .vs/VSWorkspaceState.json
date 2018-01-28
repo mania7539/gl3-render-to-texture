@@ -1,0 +1,10 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\Dependencies",
+    "\\glew-render-to-texture",
+    "\\glew-render-to-texture\\src"
+  ],
+  "SelectedNode": "\\glew-render-to-texture\\src\\lab_shader_loader.hpp",
+  "PreviewInSolutionExplorer": false
+}

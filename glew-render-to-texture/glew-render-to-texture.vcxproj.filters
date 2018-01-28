@@ -14,4 +14,57 @@
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
   </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\ground.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\trunk_color.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\trunk7_color.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Object Include="res\ground.obj" />
+    <Object Include="res\sphere.obj" />
+    <Object Include="res\tree1_trunk.obj" />
+    <Object Include="res\tree7_trunk.obj" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\lab_framebuffer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lab_geometry.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lab_glut.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lab_glut_support.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lab_mesh_loader.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lab_shader_loader.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lab_texture_loader.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\shaders\shader_phong_fragment.glsl" />
+    <None Include="res\shaders\shader_phong_vertex.glsl" />
+    <None Include="res\shaders\shader_rim_fragment.glsl" />
+    <None Include="res\shaders\shader_rim_vertex.glsl" />
+    <None Include="res\shaders\shader_rtt_fragment.glsl" />
+    <None Include="res\shaders\shader_rtt_vertex.glsl" />
+  </ItemGroup>
 </Project>
